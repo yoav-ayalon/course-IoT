@@ -29,9 +29,9 @@ This project implements distributed algorithms for multi-agent coordination in a
 
     This will execute all algorithms on different graph settings, average the results over multiple runs, and plot the cost per iteration for each algorithm.
 
-**Algorithms**
-    - DSA_C: Agents change their assignments based on a probability and local cost improvement.
-    - MGM-K: Agents propose changes to up to k neighbors, negotiate, and commit if mutual gain is achieved.
+## Algorithms
+- **DSA_C:** Agents change their assignments based on a probability and local cost improvement.
+- **MGM-K:** Agents propose changes to up to k neighbors, negotiate, and commit if mutual gain is achieved.
     
-**Output**
+## Output
     Plots showing the performance (cost over iterations) of each algorithm under different graph densities and domains.
